@@ -116,7 +116,15 @@
     display:flex;
     justify-content:space-between;
 }
-
+@media screen and (max-width:500px){
+    .view-box{
+        display: flex;
+        flex-direction:column;
+    }
+    #menu{
+        display: none;
+    }
+}
 
 
 
